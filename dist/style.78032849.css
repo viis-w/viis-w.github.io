@@ -1,35 +1,56 @@
 
-h1,h2,h3,p,li {
-  font-family: Helvetica; 
+body{
+   font-family: Helvetica; 
+   background-color: rgb(194,194,194);
+   padding: 2em;
+}
+
+p {
+    margin-top: 0;
 }
 
 .head {
-
+    margin-left: none;
+    margin-right: none;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    display: flex;
+    width: 100%;
 }
 
-.text {
-  
+.head_item {
+    padding-left: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    flex: 1 1 auto;
 }
 
-.avatar {
-  
+.head_item_text {
+    padding-top: 2em;
+}
+
+.head_item_img {
+    padding-top: -4em;
 }
 
 .avatar_img {
+  padding: 1em: 
   width: 200px;
   height: 200px;
+    border-radius: 100px; /* Радиус скругления */
+    box-shadow: 0 0 5px #333; /* Параметры тени */
 }
 
 .skills {
 
 }
 
+.skills_item {
+
+}
 .experience {
   padding: 1em;
 }
 
-.body {
-  padding: 2em;
-}
 
 /*# sourceMappingURL=/style.78032849.css.map */
