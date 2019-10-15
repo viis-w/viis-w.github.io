@@ -1,0 +1,21 @@
+
+h1,h2,h3,p {
+    font-family: Helvetica; 
+  }
+
+.block_head {
+    float: center;
+    padding: 1em;
+  }
+
+.block_experience {
+    float: center;
+    padding: 1em;
+  }
+
+.avatar {
+    width: 200;
+    height: 200;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
