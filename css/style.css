@@ -7,6 +7,11 @@ body{
 
 p {
     margin-top: 0;
+    margin-bottom: 0,1em;
+}
+
+li {
+    padding: 0.4em;
 }
 
 .head {
@@ -42,11 +47,11 @@ p {
 }
 
 .skills {
-
+    display: flex;
 }
 
 .skills_item {
-
+    margin: 1em;
 }
 .experience {
   padding: 1em;
